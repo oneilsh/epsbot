@@ -252,22 +252,6 @@ files = [
 test = ["coverage", "mypy", "pexpect", "ruff", "wheel"]
 
 [[package]]
-name = "arxiv"
-version = "2.2.0"
-description = "Python wrapper for the arXiv API: https://arxiv.org/help/api/"
-optional = false
-python-versions = ">=3.7"
-groups = ["main"]
-files = [
-    {file = "arxiv-2.2.0-py3-none-any.whl", hash = "sha256:545b8af5ab301efff7697cd112b5189e631b80521ccbc33fbc1e1f9cff63ca4d"},
-    {file = "arxiv-2.2.0.tar.gz", hash = "sha256:6072a2211e95697092ef32acde0144d7de2cfa71208e2751724316c9df322cc0"},
-]
-
-[package.dependencies]
-feedparser = ">=6.0.10,<6.1.0"
-requests = ">=2.32.0,<2.33.0"
-
-[[package]]
 name = "attrs"
 version = "25.3.0"
 description = "Classes Without Boilerplate"
@@ -611,21 +595,6 @@ codecs = ["cramjam", "lz4", "zstandard"]
 lz4 = ["lz4"]
 snappy = ["cramjam"]
 zstandard = ["zstandard"]
-
-[[package]]
-name = "feedparser"
-version = "6.0.11"
-description = "Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds"
-optional = false
-python-versions = ">=3.6"
-groups = ["main"]
-files = [
-    {file = "feedparser-6.0.11-py3-none-any.whl", hash = "sha256:0be7ee7b395572b19ebeb1d6aafb0028dee11169f1c934e0ed67d54992f4ad45"},
-    {file = "feedparser-6.0.11.tar.gz", hash = "sha256:c9d0407b64c6f2a065d0ebb292c2b35c01050cc0dc33757461aaabdc4c4184d5"},
-]
-
-[package.dependencies]
-sgmllib3k = "*"
 
 [[package]]
 name = "filelock"
@@ -1664,14 +1633,14 @@ files = [
 
 [[package]]
 name = "opaiui"
-version = "0.12.2"
+version = "0.14.0"
 description = "Opinionated Pydantic.AI User Interface"
 optional = false
 python-versions = "<4.0,>=3.10"
 groups = ["main"]
 files = [
-    {file = "opaiui-0.12.2-py3-none-any.whl", hash = "sha256:da6c9f6e627cfe727e415a79dc24ef4d14849abeb9a24bb0424d6c2f16133d52"},
-    {file = "opaiui-0.12.2.tar.gz", hash = "sha256:dbb894a8026c16c9bb38a70b47ef4c1b21e9ac2e6e6d9c5ff8f8cd62e0c34c82"},
+    {file = "opaiui-0.14.0-py3-none-any.whl", hash = "sha256:fb30cd1d70fa50ee1f639ae6fb4e575bdd6d09cb871d6ff06c01c3d3c8088c7f"},
+    {file = "opaiui-0.14.0.tar.gz", hash = "sha256:ef3494ba4d2001bf1f0b9714be1f60ff9c3ca072851bfa6330a8ab446ad0a503"},
 ]
 
 [package.dependencies]
@@ -2876,17 +2845,6 @@ botocore = ">=1.37.4,<2.0a.0"
 crt = ["botocore[crt] (>=1.37.4,<2.0a.0)"]
 
 [[package]]
-name = "sgmllib3k"
-version = "1.0.0"
-description = "Py3k port of sgmllib."
-optional = false
-python-versions = "*"
-groups = ["main"]
-files = [
-    {file = "sgmllib3k-1.0.0.tar.gz", hash = "sha256:7868fb1c8bfa764c1ac563d3cf369c381d1325d36124933a726f29fcdaa812e9"},
-]
-
-[[package]]
 name = "six"
 version = "1.17.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -3487,4 +3445,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4.0"
-content-hash = "5d8dba3de169bd2dea60f247003aac7073ba2d1c02e069aacbfb2b97c817a96c"
+content-hash = "ba53d8b2cf3a7837a6f76a1b36cec82feeaf42e5f5c2ad461170d940f1661624"

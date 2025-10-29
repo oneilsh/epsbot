@@ -4,6 +4,6 @@ install:
 	@echo "Installing dependencies..."
 	poetry install --no-root
 
-demo:
+app:
 	@echo "Running demo..."
-	poetry run streamlit run demo_app.py
+	poetry run streamlit run main.py
