@@ -1633,14 +1633,14 @@ files = [
 
 [[package]]
 name = "opaiui"
-version = "0.14.0"
+version = "0.14.1"
 description = "Opinionated Pydantic.AI User Interface"
 optional = false
 python-versions = "<4.0,>=3.10"
 groups = ["main"]
 files = [
-    {file = "opaiui-0.14.0-py3-none-any.whl", hash = "sha256:fb30cd1d70fa50ee1f639ae6fb4e575bdd6d09cb871d6ff06c01c3d3c8088c7f"},
-    {file = "opaiui-0.14.0.tar.gz", hash = "sha256:ef3494ba4d2001bf1f0b9714be1f60ff9c3ca072851bfa6330a8ab446ad0a503"},
+    {file = "opaiui-0.14.1-py3-none-any.whl", hash = "sha256:e3eeb01fc1e176b5881bf8741b71682a26d17b456e22e4e3ccd93c46780c4976"},
+    {file = "opaiui-0.14.1.tar.gz", hash = "sha256:71f1a0f5a244cdcf2fce0786e3a8c57e344ec0df51f9f50373be5bbe4723d713"},
 ]
 
 [package.dependencies]
