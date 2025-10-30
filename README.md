@@ -1,3 +1,3 @@
 # EPSBot
 
-Details to come.
+Details to come..
