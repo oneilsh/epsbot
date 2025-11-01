@@ -23,19 +23,20 @@ print(bibtex_dict["O-Neil2024-gq"])
 # we need to replace strings like {% cite O-Neil2024-gq %} with markdown-formatted 
 # links of the form ([Last Name et al., year](url or doi url)), with the url or doi url being the url or doi url from the bibtex entry; if neither is available, do not format as a link.
 
-def format_citations(desc: str) -> str:
-    """
-    Format citations in the markdown content.
-    """
-    for key, entry in bibtex_dict.items():
-        if entry['url'] or entry['doi']:
-            desc = desc.replace(f"{{% cite {key} %}}", f"([{entry['author']}, {entry['year']}]({entry['url'] or entry['doi']}))")
-        else:
-            desc = desc.replace(f"{{% cite {key} %}}", f"({entry['author']}, {entry['year']})")
-    return desc
+# def format_citations(desc: str) -> str:
+#     """
+#     Format citations in the markdown content.
+#     """
+#     for key, entry in bibtex_dict.items():
+#         # if entry['author'] we use the first word
+#         if entry['url'] or entry['doi']:
+#             desc = desc.replace(f"{{% cite {key} %}}", f"([{entry['author']}, {entry['year']}]({entry['url'] or entry['doi']}))")
+#         else:
+#             desc = desc.replace(f"{{% cite {key} %}}", f"({entry['author']}, {entry['year']})")
+#     return desc
 
-desc = format_citations(desc)
-print(desc)
+# desc = format_citations(desc)
+# print(desc)
 
 
 system_prompt = f"""
